@@ -1,0 +1,13 @@
+"$ mkdir learngit
+ $ cd learngit " -- 选择一个合适的地方，创建一个空目录 
+"pwd" -- 显示当前目录
+"git init" -- 把目录变成Git可以管理的仓库
+"git add" -- 把文件添加到仓库
+“git commit -m“ 操作说明与备注 ”” -- 把文件提交到仓库
+"git status" -- 命令可以让我们时刻掌握仓库当前的状态
+"git diff" -- 看看具体修改了什么内容
+"git log" -- 显示从最近到最远的提交日志,+"--pretty=oneline" -- 简化输出信息
+"git reset --hard HEAD^" -- 退回到之前的版本,上一个版本就是HEAD^,上上一个版本就是HEAD^^,当然往上100个版本写100个^比较容易数不过来,所以写成HEAD~100。
+"cat "文件名"" -- 呈现文件内容
+"git reset --hard "commit id"" -- 修正到commit id对应的版本内容
+"git reflog" -- 用来记录你的每一次命令
